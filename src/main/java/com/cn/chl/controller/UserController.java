@@ -40,7 +40,6 @@ public class UserController {
 	public String login(HttpServletRequest request, ModelMap map) {
 		User user = userService.getUser("admin");
 		System.out.println(user.getName());
-		System.out.println(user.getName());
 		System.out.println("登陆成功！");
 		return "success";
 	}
