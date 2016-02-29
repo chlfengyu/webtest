@@ -44,6 +44,9 @@
         </property>
     </bean>
     
+    <!-- 配置 css 和 js 文件路径 -->
+     <mvc:resources mapping="/easyui/**" location="/resources/easyui/"/>
+    
         <!-- 定义JSP文件的位置 -->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/jsp/" />
